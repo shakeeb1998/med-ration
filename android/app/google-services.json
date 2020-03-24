@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377291712360",
+    "firebase_url": "https://med-ration.firebaseio.com",
+    "project_id": "med-ration",
+    "storage_bucket": "med-ration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377291712360:android:fb65aec44bdc28fb5bd8dd",
+        "android_client_info": {
+          "package_name": "ahmedshakeeb.ration_med"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377291712360-1f0i7uh5tejdu27lcoq6u7h2f672hlut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZm0SYYawMybUyR9PfC5P3tVCV5XLxnw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377291712360-1f0i7uh5tejdu27lcoq6u7h2f672hlut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
