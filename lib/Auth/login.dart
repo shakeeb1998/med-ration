@@ -4,12 +4,12 @@ import "validator.dart";
 
 import 'package:flutter/material.dart';
 
-class Registeration extends StatefulWidget {
+class Login extends StatefulWidget {
   @override
-  _RegisterationState createState() => _RegisterationState();
+  LoginState createState() => LoginState();
 }
 
-class _RegisterationState extends State<Registeration> {
+class LoginState extends State<Login> {
   AuthUser authUser = new AuthUser();
   var email;
   var pass;
@@ -100,8 +100,7 @@ class _RegisterationState extends State<Registeration> {
                               if (form.validate()) {
                                 form.save();
 
-                                print(await authUser.signUp(email, pass));
-                                authUser.sendVerification();
+                                print(await authUser.signIn(email, pass));
                               } else {
                                 final snackBar =
                                     SnackBar(content: Text('Not Valid Email'));

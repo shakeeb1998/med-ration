@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
-import "Auth//Register.dart";
+import "Auth/login.dart";
 
-void main() => runApp(MaterialApp(home: Registeration()));
+void main() => runApp(MaterialApp(home: Login()));
